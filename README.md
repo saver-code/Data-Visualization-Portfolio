@@ -1,4 +1,4 @@
-# [Your Name/Portfolio Title] 👨‍💻
+# Shivam Patel/Data-Viz Portfolio 👨‍💻
 
 ![License](https://img.shields.io/badge/License-MIT-blue.svg) ![Status](https://img.shields.io/badge/Status-Active-green) ![Version](https://img.shields.io/badge/Version-1.0.0-orange)
 
