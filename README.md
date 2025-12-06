@@ -29,15 +29,15 @@ This Portfolio is basically my work done throughout the course - Data Visualizat
 * [e.g. Javascript]
 
 **Backend & Tools:**
-* [e.g. Mirobaord]
+* [e.g. Miroboard]
 * [e.g. Canva]
 * [e.g. Git / GitHub Actions]
 
 ---
 
 
-## 💻 Installation & Setup
+## 💻 File
 
-If you want to run this project locally, follow these steps:
+If you want to run this file locally, just click the Link:
 
 Here is the Link of this Portfolio **https://saver-code.github.io/Data-Viz-Portfolio/**
