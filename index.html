@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shivam Patel | Data Visualization</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+  <nav class="top-nav">
+    <div class="logo">Shivam Patel<span class="accent">.viz</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#skills">Tools & Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <h1>Decoding Data. Designing <br><span class="highlight">Clarity.</span></h1>
+      <p>Transforming complex analytics into intuitive narratives that drive informed business decisions.</p>
+      <a href="#about" class="btn">Explore my Portfolio ↓</a>
+    </div>
+  </header>
+
+  
+
+  <section id="about" class="about">
+    <div class="section-header">
+      <h2>About</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p class="lead">I’m Shivam Patel, a Master’s candidate in Business Analytics & AI at Ontario Tech University.</p>
+        <p>I specialize in translating complex technical analysis into meaningful business insights. My passion lies in turning raw data into clear, actionable stories that drive strategy.</p>
+        <p>Currently, I am focused on the intersection of Data Visualization and Storytelling, leveraging design principles to create interactive dashboards, maps, and immersive scrollytelling experiences. I aim to democratize information, helping diverse stakeholders find the signal in the noise.</p>
+        <p>My goal is to bridge the gap between analytical rigor and human decision-making, ensuring that every visualization inspires clarity and impact.</p>
+      </div>
+      <div class="about-photo">
+        <img src="images\shivam.jpg" alt="Shivam Patel portrait">
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+    </div>
+
+    <div class="projects">
+      <!-- Slide 1: image left, text right -->
+      <article class="project-slide">
+        <div class="slide-media">
+          <img src="images/Miroboard.png" alt="Project 1 screenshot">
+        </div>
+        <div class="slide-content">
+          <span class="tag">Ideation</span>
+          <h3>Covid-19 (Miroboard)</h3>
+          <p>This strategic framework outlines a comprehensive COVID-19 Recovery Plan. It maps the journey from diagnosing critical business and mental health risks (The Impact) to designing targeted operational interventions (The Antidote). The strategy culminates in a role-based Hybrid Workforce Model—segmenting teams into Cloud, Mixed, or On-Premise roles—and facilitates execution through a tactical Kanban action plan for HR and IT</p>
+          <a href="https://miro.com/app/board/uXjVJgdJY7o=/" class="link-arrow">View Case Study →</a>
+        </div>
+      </article>
+
+      <!-- Slide 2: image right, text left -->
+      <article class="project-slide">
+        <div class="slide-media">
+          <img src="images/Persona.png" alt="Project 2">
+        </div>
+        <div class="slide-content">
+          <span class="tag">Persona</span>
+          <h3>Persona Development</h3>
+          <p>I have 2 person information for my work that will be later seen in this data story project developed by our gorup.</p>
+          <p>Here is information of 2 people:</p>
+          <p>One is already is AI field and try to upksill as much as possible, her name is <b>Jia Sharma</b>. So, she can manages her expense in this advanced worl.</p>
+          <p>Other is male character having degree in MBA but he didn't have any knowledge about AI sector, his name is <b> Chris Anderson</b>. So, he is struggling with the finacne in the todays's world.</p>
+          <a href="documents/Persona.pptx" class="link-arrow">View Case Study →</a>
+        </div>
+      </article>
+
+      <!-- Slide 3 -->
+      <article class="project-slide">
+        <div class="slide-media">
+          <img src="images/Assignment-1.png" alt="Assignment-1 screenshot">
+        </div>
+        <div class="slide-content">
+          <span class="tag">Data Story</span>
+          <h3>Covid-19 Pandemic</h3>
+          <b>
+          <p>Origin: It starts with "Wuhan, China, Late 2019," showing a street market scene and a scientific drawing of the virus structure.</p>
+
+          <p>Symptoms & Spread: It depicts symptoms like fever and cough, alongside hospital scenes of patients and medical staff. It also shows global travel (airplanes) and cityscapes to represent the virus spreading.</p>
+
+          <p>Global Response: Key dates like "January 2020" and "March 2020" are highlighted, featuring the WHO (World Health Organization) logo, lockdown measures, quarantine, and social distancing protocols.</p>
+
+          <p>Resolution: The final panels show the development of a vaccine and medical professionals administering shots.</p>
+          <a href="documents/Assignment-1.pdf" class="link-arrow">View Case Study →</a>
+          </b>
+        </div>
+      </article>
+
+      <!-- Slide 4 -->
+      <article class="project-slide">
+        <div class="slide-media">
+          <img src="images/Assignment-2.png" alt="Assignment-2 screenshot">
+        </div>
+        <div class="slide-content">
+          <span class="tag">Infographic</span>
+          <h3>Redesigning John Snow Cholera Map</h3>
+          <b>
+          <p>Project Overview: This project reimagines John Snow’s seminal work on the 1854 Soho cholera outbreak, bridging the gap between historical storytelling and modern geospatial analysis. The redesign visualizes the same dataset through two distinct lenses:</p>
+
+          <p>Narrative: The artistic visualization illustrates the methodology behind the discovery, depicting John Snow’s data collection process and the physical location of the Broad Street pump. It uses a scatter-plot style to represent individual cases and saved locations relative to the pumps.</p>
+
+          <p>Geospatial Heat Map: The analytical visualization applies modern mapping techniques to the dataset. By utilizing a heat map, the design reveals "High Death Density" zones in red and yellow, visually confirming the clustering of fatalities around the specific water pump. This highlights the intensity of the outbreak more effectively than a traditional dot map.</p>
+          <a href="documents/Assignmnet-2/Assignmnet-2.html" class="link-arrow">View Case Study →</a>
+          </b>
+        </div>
+      </article>
+
+      <!-- Slide 5 -->
+      <article class="project-slide">
+        <div class="slide-media">
+          <img src="images/Assignment-3.png" alt="Assignmnet-3 screenshot">
+        </div>
+        <div class="slide-content">
+          <span class="tag">Persuasive Infographic</span>
+          <h3>The Vanishing Green</h3>
+          <p>Overview of the Design Process This assignment represents a complete visual communication project focused on environmental awareness, specifically tracking the journey from concept to final design. It begins on the far left with a hand-drawn wireframe sketch, outlining the layout for charts and diagrams. This planning stage evolves into a set of polished, high-fidelity digital infographics titled "The Vanishing Green," "Roots of Life," and "Grow Back Better." The project effectively uses data visualization to narrate the cause-and-effect relationship between deforestation (showing 10 million hectares lost annually) and rising global Carbon Dioxide levels.</p>
+
+          <p>Data Visualization and Content The content breaks down complex environmental data into digestible visuals. It uses pie charts and bar graphs to categorize forest loss by industry (such as infrastructure and resource extraction) and by region (highlighting high loss in Africa and South America). The narrative pivots to solutions with a chart comparing 2025 plantation projects across nations like China and the United States. Finally, the "Grow Back Better" section utilizes a web diagram to illustrate the multifaceted benefits of trees—from oxygen production to soil protection—and promotes initiatives like seed bombing to restore the ecosystem.</p>
+          <p><a href="documents/Assignment-3.pdf" class="link-arrow">View Case Study →</a></p>
+        </div>
+      </article>
+
+      <!-- Slide 6 -->
+      <article class="project-slide">
+        <div class="slide-media">
+          <img src="images/Assignment-4.png" alt="Assignmnet-4 screenshot">
+        </div>
+        <div class="slide-content">
+          <span class="tag">Data Story</span>
+          <h3>The AI divide in GTA</h3>
+          <p>This presentation, titled "The AI Divide," examines the potential economic gap created by artificial intelligence within the GTA and Durham Region by contrasting two distinct career trajectories. It follows the stories of Jiya Sharma, an AI Engineer whose skills are augmented by technology, and Chris Anderson, a Logistics Supervisor facing job stagnation due to automation. The narrative establishes a clear dichotomy between those who "ride the wave" of AI and those whose routine tasks make them vulnerable to replacement, setting the stage for a discussion on future workforce security.</p>
+
+          <p>slides visualize this disparity through an "Earning Divergence" graph, which shows Jiya’s income nearly doubling to $150k over three years while Chris’s salary stagnates at $58k. This financial gap is further explained by a "Risk Matrix" that categorizes Jiya’s complex, problem-solving role as having "High Complementarity" with AI, versus Chris’s "Low Complementarity" role that relies on repetition. The presentation concludes with quotes emphasizing that the primary risk to workers is not AI itself, but rather being replaced by individuals who know how to utilize AI tools effectively.</p>
+          <p><a href="https://drive.google.com/drive/u/3/folders/1yAIUweAMzKs-yL6Jq5dG4_k5thdEKUpn" class="link-arrow">View Case Study →</a></p>
+          <a href = "https://drive.google.com/file/d/1jja9T0N0NjJeUEXFGhw1_yM6s3f8RzDW/view?usp=sharing" class="link-arrow">View Data Story Video →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  </section> <!-- end of #work -->
+
+  <!-- Tools & Skills -->
+  <section id="skills" class="skills">
+    <div class="section-header">
+      <h2>Tools & Skills</h2>
+    </div>
+
+    <div class="skills-grid">
+      <!-- Tools -->
+      <div class="skills-group">
+        <h3 class="skills-title">Tools</h3>
+        <ul class="badge-list">
+          <li class="badge">Miroboard</li>
+          <li class="badge">Canva</li>
+          <li class="badge">Tableau</li>
+          <li class="badge">Power BI</li>
+          <li class="badge">Figma</li>
+          <li class="badge">Jyupter Notebook</li>
+          <li class="badge">Anaconda</li>
+          <li class="badge">Git\github</li>
+          <li class="badge">DBMS</li>
+          <li class="badge">PostgreSQL</li>
+        </ul>
+      </div>
+
+      <!-- Skills -->
+      <div class="skills-group">
+        <h3 class="skills-title">Skills</h3>
+        <ul class="badge-list">
+          <li class="badge">Data Visualization</li>
+          <li class="badge">Storytelling</li>
+          <li class="badge">HTML</li>
+          <li class="badge">CSS</li>
+          <li class="badge">JavaScript</li>
+          <li class="badge">SQL</li>
+          <li class="badge">Python</li>
+          <li class="badge">Java</li>
+          <li class="badge">Dashboard Design</li>
+          <li class="badge">Geospatial Analysis</li>
+          <li class="badge">Exploratory Data Analysis</li>
+          <li class="badge">ETL & Cleaning</li>
+          <li class="badge">Regression & Forecasting</li>
+          <li class="badge">SQL Querying</li>
+          <li class="badge">A/B Testing</li>
+          <li class="badge">Interaction Design</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="section-header">
+      <h2>Contact</h2>
+      <p>Let’s collaborate. Reach out via email or socials.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <a href="mailto:pshivamcse1234@gmail.com" class="email-link">pshivamcse1234@gmail.com</a>
+        <p>Social</p>
+        <ul class="social-list">
+          <li>
+            <a href="https://www.linkedin.com/in/shivam-patel-b993311b3" class="social-link" aria-label="LinkedIn">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M4.98 3.5c0 1.38-1.14 2.5-2.55 2.5S0 4.88 0 3.5C0 2.12 1.14 1 2.43 1s2.55 1.12 2.55 2.5zM.24 8.98h4.38V24H.24V8.98zM8.44 8.98h4.2v2.05h.06c.58-1.1 2-2.25 4.12-2.25 4.41 0 5.22 2.9 5.22 6.67V24h-4.58v-6.65c0-1.58-.03-3.62-2.21-3.62-2.22 0-2.56 1.73-2.56 3.52V24H8.44V8.98z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/saver-code?tab=repositories" class="social-link" aria-label="GitHub">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 .5C5.73.5.98 5.25.98 11.52c0 4.85 3.15 8.96 7.52 10.41.55.1.75-.24.75-.53 0-.26-.01-1.13-.02-2.06-3.06.67-3.71-1.31-3.71-1.31-.5-1.27-1.21-1.61-1.21-1.61-.99-.68.08-.67.08-.67 1.1.08 1.68 1.13 1.68 1.13.97 1.66 2.55 1.18 3.17.9.1-.7.38-1.18.69-1.45-2.44-.28-5-1.22-5-5.43 0-1.2.43-2.18 1.13-2.95-.11-.28-.49-1.43.11-2.98 0 0 .93-.3 3.05 1.13a10.6 10.6 0 0 1 2.78-.37c.94 0 1.89.13 2.78.37 2.12-1.43 3.04-1.13 3.04-1.13.6 1.55.22 2.7.11 2.98.7.77 1.13 1.75 1.13 2.95 0 4.22-2.57 5.15-5.02 5.43.39.33.74.99.74 2 0 1.44-.01 2.6-.01 2.95 0 .29.2.64.76.53 4.36-1.45 7.51-5.56 7.51-10.41C23.02 5.25 18.27.5 12 .5Z"/>
+              </svg>
+              <span>GitHub</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <h3>Let's tell a story.</h3>
+      <p>Available for freelance projects.</p>
+      <a href="mailto:pshivamcse1234@gmail.com" class="email-link">Get in Touch</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
