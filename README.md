@@ -17,47 +17,24 @@
 
 ---
 
-## 🧐 About the Project
-This portfolio serves as a central hub for my development work. It was built to demonstrate my ability to build [mention key aspect, e.g., responsive UIs / scalable backends / complex data visualizations]. The design focuses on [mention design philosophy, e.g., minimalism / accessibility / dark mode].
-
----
-
-## 🚀 Live Demo
-Check out the live version of the portfolio here:  
-👉 **[Insert Link to Your Live Website Here]**
+## 🧐 About the Portfolio
+This Portfolio is basically my work done throughout the course - Data Visualization and Storytelling.
 
 ---
 
 ## 🛠 Technologies Used
 **Frontend:**
-* [e.g. React.js / Next.js / Vue]
-* [e.g. Tailwind CSS / SCSS / Bootstrap]
-* [e.g. Framer Motion / Three.js]
+* [e.g. HTML]
+* [e.g. CSS]
+* [e.g. Javascript]
 
 **Backend & Tools:**
-* [e.g. Node.js / Express]
-* [e.g. Firebase / Supabase]
+* [e.g. Mirobaord]
+* [e.g. Canva]
 * [e.g. Git / GitHub Actions]
 
 ---
 
-## ✨ Key Features
-* **[Feature 1]:** [e.g. Fully responsive design for mobile, tablet, and desktop.]
-* **[Feature 2]:** [e.g. Dark/Light mode toggle with local storage persistence.]
-* **[Feature 3]:** [e.g. Integrated contact form using EmailJS.]
-* **[Feature 4]:** [e.g. CMS integration for easy blog updates.]
-
----
-
-## 📸 Screenshots
-
-![Home Page Screenshot](./assets/screenshot-home.png)
-*Home Page View*
-
-![Mobile View Screenshot](./assets/screenshot-mobile.png)
-*Responsive Mobile View*
-
----
 
 ## 💻 Installation & Setup
 
