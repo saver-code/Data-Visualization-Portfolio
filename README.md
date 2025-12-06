@@ -6,17 +6,6 @@
 
 ---
 
-## 📖 Table of Contents
-- [About the Project](#about-the-project)
-- [Live Demo](#live-demo)
-- [Technologies Used](#technologies-used)
-- [Key Features](#key-features)
-- [Screenshots](#screenshots)
-- [Installation & Setup](#installation--setup)
-- [Contact](#contact)
-
----
-
 ## 🧐 About the Portfolio
 This Portfolio is basically my work done throughout the course - Data Visualization and Storytelling.
 
