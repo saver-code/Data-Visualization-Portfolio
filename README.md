@@ -29,4 +29,4 @@ This Portfolio is basically my work done throughout the course - Data Visualizat
 
 If you want to run this file locally, just click the Link:
 
-Here is the Link of this Portfolio **https://saver-code.github.io/Data-Viz-Portfolio/**
+Here is the Link of this Portfolio **(https://saver-code.github.io/Data-Visualization-Portfolio/)**
